@@ -234,3 +234,72 @@ footer {
   font-size: 0.9rem;
   border-top: 1px solid #222;
 }
+/* ====== Certifications & Tools Section ====== */
+.certifications {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #0d0d0d;
+  color: #e5e5e5;
+}
+
+.certifications h2 {
+  color: #00ffcc;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.certs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  margin-bottom: 60px;
+}
+
+.cert-item {
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #222;
+  transition: all 0.3s ease;
+  width: 90%;
+  max-width: 220px;
+}
+
+.cert-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 15px #00ffcc55;
+}
+
+.cert-item img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.cert-item p {
+  font-size: 1rem;
+  color: #bdbdbd;
+}
+
+/* Tools Grid */
+.tools-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tools-grid img {
+  width: 60px;
+  height: auto;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.tools-grid img:hover {
+  transform: scale(1.2);
+  filter: grayscale(0%);
+}
