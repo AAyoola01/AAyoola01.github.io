@@ -1,3 +1,25 @@
+/* ====== Banner and Headshot Styling ====== */
+.banner-image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-bottom: 3px solid #00ffcc;
+  box-shadow: 0 0 15px #00ffcc55;
+}
+
+.headshot {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #00ffcc;
+  margin-top: -75px;
+  box-shadow: 0 0 20px #00bfff66;
+  transition: transform 0.3s ease;
+}
+
+.headshot:hover {
+  transform: scale(1.05);
+}
 /* ====== Global Styles ====== */
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap');
 
