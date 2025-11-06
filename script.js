@@ -1,1 +1,3 @@
-console.log("Alex Ayoola Portfolio loaded successfully!");
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Portfolio loaded successfully 🚀");
+});
